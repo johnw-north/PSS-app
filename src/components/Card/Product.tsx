@@ -6,17 +6,14 @@ function Product () {
       <div className="card card-xs bg-base-100 shadow-sm rounded-2xl">
         <figure className="sm:px-3 sm:pt-3">
           <img
-            src="src/assets/Placeholder.png"
+            src="src/assets/Products/IMG-20260228-WA0000.jpg"
             alt="Shoes"
-            className="rounded-xl"
+            className="rounded-xl border-3 border-base-300"
           />
         </figure>
         <div className="card-body items-center">
-          <div className="card-">
+          <div className="card">
             <h2 className="card-title">Card Title</h2>
-            <p className="">
-              Artist: <b className="link link-hover">Haru Casting</b>
-            </p>
           </div>
           <ul>
             <li>
