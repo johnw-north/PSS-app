@@ -18,7 +18,7 @@ function Footer() {
           <p>
             Peach Stone Studio.
             <br />
-            Providing fun 3D prints since 2019
+            Providing fun 3D prints since 2025
           </p>
         </aside>
         <nav>
