@@ -7,7 +7,7 @@ function Products() {
         <h2 className="text-center text-4xl font-bold font-gummy">New</h2>
         <div className="gap-2 py-4 px-2 grid grid-cols-2 sm:grid-cols-3 sm:px-4 sm:gap-4 md:grid-cols-4">
           <Product
-            image="/PSS-app/Products/IMG-20260228-WA0002.jpg"
+            image="PSS-app/Products/IMG-20260228-WA0002.jpg"
             title="Fantasy Books"
             price={10}
           />
