@@ -34,7 +34,7 @@ function Home() {
             price={25}
           />
           <Product
-            image="/PSS-app/ProductsIMG-20260228-WA0001.jpg"
+            image="/PSS-app/Products/IMG-20260228-WA0001.jpg"
             title="Cookie Dominoes"
             price={30}
           />
