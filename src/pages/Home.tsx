@@ -29,22 +29,22 @@ function Home() {
         <h2 className="text-center text-4xl font-bold font-gummy">Popular</h2>
         <div className="gap-2 py-4 px-2 grid grid-cols-2 sm:grid-cols-3 sm:px-4 sm:gap-4 md:grid-cols-4">
           <Product
-            image="src/assets/Products/IMG-20260228-WA0000.jpg"
+            image="public/Products/IMG-20260228-WA0000.jpg"
             title="Coffee Cup & 1 Cinnamon Roll"
             price={25}
           />
           <Product
-            image="src/assets/Products/IMG-20260228-WA0001.jpg"
+            image="public/Products/IMG-20260228-WA0001.jpg"
             title="Cookie Dominoes"
             price={30}
           />
           <Product
-            image="src/assets/Products/IMG-20260228-WA0009.jpg"
+            image="public/Products/IMG-20260228-WA0009.jpg"
             title="Small Yeti"
             price={10}
           />
           <Product
-            image="src/assets/Products/IMG-20260228-WA0006.jpg"
+            image="public/Products/IMG-20260228-WA0006.jpg"
             title="Large Blueberry turtle"
             price={15}
           />
