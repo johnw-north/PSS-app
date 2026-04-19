@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Products from './pages/Products';
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="bg-main">
-        <BrowserRouter basename="/PSS-app">
+        <HashRouter>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />} />
           </Routes>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </>
   );
