@@ -11,13 +11,13 @@ function App() {
   return (
     <>
       <div className="bg-main">
-        <BrowserRouter>
+        <BrowserRouter basename="/PSS-app">
           <Navbar />
-            <Routes>
-              <Route path="/" element={<Home/>} />
-              <Route path="/products" element={<Products/>} />
-              <Route path="/aboutus" element={<AboutUs/>} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/aboutus" element={<AboutUs />} />
+          </Routes>
           <Footer />
         </BrowserRouter>
       </div>
