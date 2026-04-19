@@ -12,7 +12,7 @@ function Products() {
             price={10}
           />
           <Product
-            image="/PSS-app/Products/IMG-20260228-WA0004.jpg"
+            image="PSS-app/Products/IMG-20260228-WA0004.jpg"
             title="Cat in a Box"
             price={12}
           />
