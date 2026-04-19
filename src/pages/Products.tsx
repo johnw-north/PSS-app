@@ -50,11 +50,6 @@ function Products() {
             price={6}
           />
           <Product
-            image="/PSS-app/Products/IMG-20260228-WA0012.jpg"
-            title="Pizza Slice"
-            price={6}
-          />
-          <Product
             image="/PSS-app/Products/IMG-20260228-WA0000.jpg"
             title="Coffee Cup & 1 Cinnamon Roll"
             price={25}
